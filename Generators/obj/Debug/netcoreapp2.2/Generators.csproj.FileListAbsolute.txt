@@ -1,0 +1,15 @@
+/Users/dimavi_ka/RiderProjects/Faker/Generators/bin/Debug/netcoreapp2.2/NUnit3.TestAdapter.dll
+/Users/dimavi_ka/RiderProjects/Faker/Generators/bin/Debug/netcoreapp2.2/NUnit3.TestAdapter.pdb
+/Users/dimavi_ka/RiderProjects/Faker/Generators/bin/Debug/netcoreapp2.2/nunit.engine.netstandard.dll
+/Users/dimavi_ka/RiderProjects/Faker/Generators/bin/Debug/netcoreapp2.2/Generators.deps.json
+/Users/dimavi_ka/RiderProjects/Faker/Generators/bin/Debug/netcoreapp2.2/Generators.dll
+/Users/dimavi_ka/RiderProjects/Faker/Generators/bin/Debug/netcoreapp2.2/Generators.pdb
+/Users/dimavi_ka/RiderProjects/Faker/Generators/bin/Debug/netcoreapp2.2/Faker.dll
+/Users/dimavi_ka/RiderProjects/Faker/Generators/bin/Debug/netcoreapp2.2/Faker.pdb
+/Users/dimavi_ka/RiderProjects/Faker/Generators/obj/Debug/netcoreapp2.2/Generators.csprojAssemblyReference.cache
+/Users/dimavi_ka/RiderProjects/Faker/Generators/obj/Debug/netcoreapp2.2/Generators.csproj.CoreCompileInputs.cache
+/Users/dimavi_ka/RiderProjects/Faker/Generators/obj/Debug/netcoreapp2.2/Generators.AssemblyInfoInputs.cache
+/Users/dimavi_ka/RiderProjects/Faker/Generators/obj/Debug/netcoreapp2.2/Generators.AssemblyInfo.cs
+/Users/dimavi_ka/RiderProjects/Faker/Generators/obj/Debug/netcoreapp2.2/Generators.csproj.CopyComplete
+/Users/dimavi_ka/RiderProjects/Faker/Generators/obj/Debug/netcoreapp2.2/Generators.dll
+/Users/dimavi_ka/RiderProjects/Faker/Generators/obj/Debug/netcoreapp2.2/Generators.pdb

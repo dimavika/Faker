@@ -1,0 +1,14 @@
+/Users/dimavi_ka/RiderProjects/Faker/Faker/bin/Debug/netcoreapp2.2/NUnit3.TestAdapter.dll
+/Users/dimavi_ka/RiderProjects/Faker/Faker/bin/Debug/netcoreapp2.2/NUnit3.TestAdapter.pdb
+/Users/dimavi_ka/RiderProjects/Faker/Faker/bin/Debug/netcoreapp2.2/nunit.engine.netstandard.dll
+/Users/dimavi_ka/RiderProjects/Faker/Faker/bin/Debug/netcoreapp2.2/Faker.deps.json
+/Users/dimavi_ka/RiderProjects/Faker/Faker/bin/Debug/netcoreapp2.2/Faker.runtimeconfig.json
+/Users/dimavi_ka/RiderProjects/Faker/Faker/bin/Debug/netcoreapp2.2/Faker.runtimeconfig.dev.json
+/Users/dimavi_ka/RiderProjects/Faker/Faker/bin/Debug/netcoreapp2.2/Faker.dll
+/Users/dimavi_ka/RiderProjects/Faker/Faker/bin/Debug/netcoreapp2.2/Faker.pdb
+/Users/dimavi_ka/RiderProjects/Faker/Faker/obj/Debug/netcoreapp2.2/Faker.csprojAssemblyReference.cache
+/Users/dimavi_ka/RiderProjects/Faker/Faker/obj/Debug/netcoreapp2.2/Faker.csproj.CoreCompileInputs.cache
+/Users/dimavi_ka/RiderProjects/Faker/Faker/obj/Debug/netcoreapp2.2/Faker.AssemblyInfoInputs.cache
+/Users/dimavi_ka/RiderProjects/Faker/Faker/obj/Debug/netcoreapp2.2/Faker.AssemblyInfo.cs
+/Users/dimavi_ka/RiderProjects/Faker/Faker/obj/Debug/netcoreapp2.2/Faker.dll
+/Users/dimavi_ka/RiderProjects/Faker/Faker/obj/Debug/netcoreapp2.2/Faker.pdb

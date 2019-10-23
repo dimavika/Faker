@@ -1,0 +1,50 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/dimavi_ka/RiderProjects/Faker/Generators/Generators.csproj",
+    "projectName": "Generators",
+    "projectPath": "/Users/dimavi_ka/RiderProjects/Faker/Generators/Generators.csproj",
+    "outputPath": "/Users/dimavi_ka/RiderProjects/Faker/Generators/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/Users/dimavi_ka/.dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.2"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp2.2": {
+        "projectReferences": {
+          "/Users/dimavi_ka/RiderProjects/Faker/Faker/Faker.csproj": {
+            "projectPath": "/Users/dimavi_ka/RiderProjects/Faker/Faker/Faker.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.2": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.2.0, )",
+          "autoReferenced": true
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}
