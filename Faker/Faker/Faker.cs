@@ -46,7 +46,7 @@ namespace Faker.Faker
             var types = assembly.GetTypes().Where(type => typeof(IGenerator).IsAssignableFrom(type));
             foreach (var type in types)
             {
-                if (type.FullName == null) continue;
+                
                 if (!type.IsClass) continue;
                 var generatorPlugin = (IGenerator) assembly.CreateInstance(type.FullName);
                 if (generatorPlugin != null)
@@ -75,6 +75,10 @@ namespace Faker.Faker
             if (type == typeof(string))
             {
                 return default;
+            } 
+            if (type.IsValueType) 
+            { 
+                return CreateStruct<T>();
             }
             if (type.IsClass || type.IsValueType)
             {
@@ -138,7 +142,7 @@ namespace Faker.Faker
             return constructorInfo;
         }
         
-        private void FillObject(object instance)
+        private void FillObject( object instance)
         {
             var type = instance.GetType();
             var fields = new List<FieldInfo>(type.GetFields());
@@ -157,6 +161,13 @@ namespace Faker.Faker
                 var value = Create(propertyType);
                 property.SetValue(instance, value);
             }
+        }
+        private T CreateStruct<T>()
+        {
+            Type type = typeof(T);
+            object o = Activator.CreateInstance(type);
+            FillObject(o);
+            return (T)o;
         }
     }
 }

@@ -20,6 +20,14 @@ namespace Faker.Tests
         private MyEnum _myEnum;
         private string _string;
         
+        public class  Class1
+        {
+            
+            private Class1()
+            {
+            }
+        }
+        
         private readonly Faker.Faker _faker = new Faker.Faker();
 
         [Test]
@@ -28,9 +36,17 @@ namespace Faker.Tests
             var value = _faker.Create<CycleDep1>();
             Assert.NotNull(value);
             Assert.NotNull(value.CycleDep2);
-            Assert.NotNull(value.CycleDep2.CycleDep1);
-            Assert.NotNull(value.CycleDep2.CycleDep1.CycleDep2);
-            Assert.Null(value.CycleDep2.CycleDep1.CycleDep2.CycleDep1);
+            Assert.NotNull(value.CycleDep2.CycleDep3);
+            Assert.NotNull(value.CycleDep2.CycleDep3.CycleDep2);
+            Assert.Null(value.CycleDep2.CycleDep3.CycleDep2.CycleDep3.CycleDep2);
+            
+        }
+
+        [Test]
+        public void Test1()
+        {
+            var value = _faker.Create<Class1>();
+            Assert.Null(value);
         }
 
         [Test]
@@ -152,6 +168,18 @@ namespace Faker.Tests
             var value = _faker.Create<DtoWithInnerDto>();
             Assert.AreNotEqual(null, value._constructorDto);
             Assert.AreNotEqual(01, value._constructorDto);
+        }
+
+        struct MyStruct
+        {
+            public int Integer { get; set; }
+        }
+
+        [Test]
+        public void StructTst()
+        {
+            var @struct = _faker.Create<MyStruct>();
+            Assert.AreNotEqual(@struct.Integer, 0);
         }
     }
 }

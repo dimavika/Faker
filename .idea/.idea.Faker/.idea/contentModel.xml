@@ -13,6 +13,7 @@
           <e p="ConstructorDTO.cs" t="Include" />
           <e p="CycleDep1.cs" t="Include" />
           <e p="CycleDep2.cs" t="Include" />
+          <e p="CycleDep3.cs" t="Include" />
           <e p="DtoWithInnerDto.cs" t="Include" />
           <e p="FieldsDTO.cs" t="Include" />
           <e p="PropertiesDTO.cs" t="Include" />
